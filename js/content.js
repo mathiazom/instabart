@@ -79,19 +79,23 @@ var data = {
     // @if ENV='web'
     {
       tagline: 'Har du mobil? Er den smart? Last ned appen til <a href="https://itunes.apple.com/no/app/instabart/id903592925?mt=8" id="track-ios">iOS</a> og <a href="https://play.google.com/store/apps/details?id=com.mvn.instabart" id="track-android">Android</a>!'
+    }, {
+      tagline: '<strong>ProTip</strong> <a href="http://instabart.no/#1">Instabart.no/#1</a> tar deg direkte til itslearning'
+    }, {
+      tagline: '<strong>Pst!</strong> Tallene på tastaturet tar deg rett til nettsidene (1 for itslearning)'
     },
     // @endif
     {
-      tagline: "Kjekke NTNU-tjenester. Umiddel<strong>bart</strong>."
-    }, {
-      tagline: "Favoritt blant bartebyens studenter siden 1917!"
-    }, {
-      tagline: "Hele NTNU samlet under én bart!"
-    }, {
-      tagline: "Dekker alle dine behov som NTNU-student... bortsett fra kaffe"
-    }, {
-      tagline: "La barten bane vei i NTNUs frodige IT-jungel!"
-    }, {
+    //   tagline: "Kjekke NTNU-tjenester. Umiddel<strong>bart</strong>."
+    // }, {
+    //   tagline: "Favoritt blant bartebyens studenter siden 1917!"
+    // }, {
+    //   tagline: "Hele NTNU samlet under én bart!"
+    // }, {
+    //   tagline: "Dekker alle dine behov som NTNU-student... bortsett fra kaffe"
+    // }, {
+    //   tagline: "La barten bane vei i NTNUs frodige IT-jungel!"
+    // }, {
       tagline: "NTNUs IT-tjenester? Gotta know 'em all!"
     }
   ]

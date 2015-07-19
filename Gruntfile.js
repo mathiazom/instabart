@@ -76,8 +76,8 @@ module.exports = function(grunt) {
       js: {
         expand: true,
         filter: 'isFile',
-        cwd: 'js/libs',
-        src: ['jquery-2.1.0.min.js'],
+        cwd: 'js',
+        src: ['libs/jquery-2.1.0.min.js', 'manifest.json'],
         dest: 'js/build'
       }
     },

@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2020: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true, // Make sure eslint can handle JSX

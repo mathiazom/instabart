@@ -14,14 +14,22 @@ module.exports = {
   globals: {
     React: 'writable',
   },
+  plugins: ['react'],
   extends: [
     'plugin:react/recommended',
-    'airbnb', // A sensible rule set
-    'prettier', // Needed to deactivate rules that overlap with Prettier
+    'airbnb',
+    'prettier', // Deactivates all rules that overlap with Prettier
     'prettier/react', // Same as above, just for React
   ],
-  plugins: ['react'],
   rules: {
-    'react/react-in-jsx-scope': 'off', // Importing React isn't required when using Next.js
+    // React is never imported when using Next.js
+    'react/react-in-jsx-scope': 'off',
+
+    // Allow writing JSX in .js files
+    'react/jsx-filename-extension': ['off', { extensions: ['.jsx'] }],
+
+    // YOLO!
+    'react/prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
 };

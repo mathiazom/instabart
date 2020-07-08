@@ -24,5 +24,10 @@ Create `.vscode/settings.json` and paste the following:
   "[javascript]": {
     "editor.formatOnSave": true
   },
+
+  // Fix ESLint errors on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```

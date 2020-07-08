@@ -15,5 +15,15 @@
   },
   "bugs": {
     "url": "https://github.com/mortnod/instabart/issues"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }

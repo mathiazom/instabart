@@ -20,16 +20,27 @@ Create `.vscode/settings.json` and paste the following:
 
 ```json
 {
-  // Format page using Prettier on save
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true
+  // Activate auto-formatting for all supported files
+  "editor.formatOnSave": true,
+
+  // Make sure Prettier is set as default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Fix ESLint, Stylelint and TSLint errors on save
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
   },
 
-  // Fix ESLint errors on save
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  // Don't use built in CSS validation.
+  // Stylelint will handle the validation.
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
 ```
 

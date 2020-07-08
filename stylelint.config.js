@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard'],
+  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
   rules: {
     // Add exceptions to support Tailwind
     'at-rule-no-unknown': [

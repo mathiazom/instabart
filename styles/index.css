@@ -3,6 +3,7 @@
 
 .hero {
   @apply text-5xl text-green-500;
+
   line-height: 1.15;
 }
 

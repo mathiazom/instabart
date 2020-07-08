@@ -11,6 +11,7 @@ As an NTNU student there are lots of useful websites at your disposal. Unfortuna
 3. Run `yarn dev` to spin up a local web server
 
 ### Activating "format on save"
+
 This repo uses [Prettier](https://prettier.io/) to automatically improve the formatting of files when you save a file. The setup is a bit different for every editor, so see [Prettier's Editor Integration](https://prettier.io/docs/en/editors.html) to get instructions on how to activate it for your favorite editor.
 
 **Visual Studio Code**:
@@ -31,3 +32,7 @@ Create `.vscode/settings.json` and paste the following:
   }
 }
 ```
+
+## Tailwind VS Code plugin
+
+TODO: Write about the awesome plugin [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).

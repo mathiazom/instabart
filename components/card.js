@@ -1,10 +1,30 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+
 import Heading from './heading';
 import Icon from './icon';
 
 export default function Card({ heading }) {
   return (
-    <div className="relative bg-white pb-full w-full shadow rounded">
-      <div className="absolute w-full flex items-center justify-center">
+    <div
+      sx={{
+        position: 'relative',
+        bg: 'white',
+        width: '100%',
+        pb: '100%',
+        borderRadius: 2,
+        boxShadow: 3,
+      }}
+    >
+      <div
+        sx={{
+          position: 'absolute',
+          width: 'full',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
         <div>
           <Heading>{heading}</Heading>
           <Icon />

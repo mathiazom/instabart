@@ -1,9 +1,9 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+
 export default function Icon() {
   return (
-    <div
-      className="text-gray-800"
-      style={{ fontSize: '7vw', marginTop: '1vw' }}
-    >
+    <div sx={{ color: 'gray.800', fontSize: '7vw', mt: '1vw' }}>
       <svg
         className="mx-auto"
         fill="currentColor"

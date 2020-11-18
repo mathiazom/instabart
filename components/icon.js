@@ -3,9 +3,15 @@ import { jsx } from 'theme-ui';
 
 export default function Icon() {
   return (
-    <div sx={{ color: 'gray.800', fontSize: '7vw', mt: '1vw' }}>
+    <div
+      sx={{
+        color: 'gray.800',
+        fontSize: '7vw',
+        mt: '1vw',
+        textAlign: 'center',
+      }}
+    >
       <svg
-        className="mx-auto"
         fill="currentColor"
         width="1em"
         height="1em"

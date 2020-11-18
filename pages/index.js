@@ -1,3 +1,6 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
+
 import Head from 'next/head';
 import Card from '../components/card';
 
@@ -10,8 +13,14 @@ export default function IndexPage() {
           rel="stylesheet"
         />
       </Head>
-      <div className="mt-20 mx-auto p-3" style={{ maxWidth: '1410px' }}>
-        <div className="grid grid-cols-6 gap-3">
+      <div sx={{ mt: 20, mx: 'auto', p: 3, maxWidth: '1410px' }}>
+        <div
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(6, minmax(0, 1fr))',
+            gap: 3,
+          }}
+        >
           <Card heading="Blackboard" />
           <Card heading="Epost" />
           <Card heading="Timeplan" />

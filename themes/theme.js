@@ -218,4 +218,13 @@ export default {
   colors,
   radii,
   shadows,
+  styles: {
+    root: {
+      fontFamily: 'sans',
+      '*': {
+        margin: 0,
+        padding: 0,
+      },
+    },
+  },
 };
